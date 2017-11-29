@@ -1,0 +1,70 @@
+.imageBanner {
+    background: url("../images/bannerIdentitty.jpg") no-repeat center center;
+    position: fixed;
+    width: 100%;
+    height: 700px; /*same height as jumbotron */
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    /*background-image: url("../images/bannerIdentitty.jpg"); */
+    background-image: url("../images/newidentitty.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    /*background-color: #111;*/
+    background-color: rgba(230, 126, 34, 1);
+    color: #fff;
+}
+
+@media only screen and (min-width: 500px) {
+    .caption span.border {
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .caption span.border {
+        padding: 12px;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+}
+
+.acol {
+    color: white;
+}
+
+.acol:hover {
+    color: white;
+}
+
+.acol:visited {
+    color:white;
+}
